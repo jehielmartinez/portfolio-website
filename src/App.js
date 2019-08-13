@@ -6,10 +6,11 @@ import { Container, Col, Row } from 'react-bootstrap';
 import Profile from './components/Profile';
 import Skills from './components/Skills';
 import About from './components/About.js';
+import Experience from './components/Experience.js';
 
 
 function App() {
-  const {profile, skills, about} = resume
+  const {profile, skills, about, experience} = resume
   return (
       <Container style={{marginTop: 10}}>
       <Row>
@@ -18,6 +19,7 @@ function App() {
         </Col>
         <Col xs={12} md={8}>
           <About about={about}/>
+          <Experience experience={experience}/>
           <Skills skills={skills}/>
         </Col>
       </Row>
