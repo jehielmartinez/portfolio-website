@@ -10,5 +10,6 @@
         "twitter": "JehielMartinez1",
         "github": "jehielmartinez",
         "instagram": "jehielmartinez1"
-    }
+    },
+    "skills":["HTML", "CSS", "Javascript", "NodeJS", "Firebase", "MongoDB", "Express", "React"]
 }
