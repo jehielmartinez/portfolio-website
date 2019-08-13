@@ -12,8 +12,8 @@ export default function Skills(props) {
             </Card.Header>
             <Card.Body>
                 <div>
-                    {skills.map(skill => (
-                            <Button key={skill} style={{margin: 5, backgroundColor: '#F7F7F7', color: 'black', fontWeight: 'bold'}} variant='secondary'>{skill}</Button>
+                    {skills.map((skill, key) => (
+                            <Button key={key} style={{margin: 5, backgroundColor: '#F7F7F7', color: 'black', fontWeight: 'bold'}} variant='secondary'>{skill}</Button>
                         ))}
                 </div>  
             </Card.Body>
