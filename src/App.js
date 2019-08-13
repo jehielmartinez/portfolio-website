@@ -1,16 +1,22 @@
 import React from 'react';
+
+import resume from './assets/resume.json';
+import { Container, Col, Row } from 'react-bootstrap';
+
 import Profile from './components/Profile';
-import { Container, Col, Row, Card } from 'react-bootstrap';
+import Skills from './components/Skills';
+
 
 function App() {
+  const {profile, skills} = resume
   return (
-    <Container>
+    <Container style={{marginTop: 10}}>
       <Row>
         <Col xs={12} md={4}>
-          <Profile/>
+          <Profile profile={profile}/>
         </Col>
         <Col xs={12} md={8}>
-          <Card></Card>
+          <Skills skills={skills}/>
         </Col>
       </Row>
          
