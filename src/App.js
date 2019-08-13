@@ -7,15 +7,17 @@ import Profile from './components/Profile';
 import Skills from './components/Skills';
 import About from './components/About.js';
 import Experience from './components/Experience.js';
+import Twitter from './components/Twitter.js';
 
 
 function App() {
   const {profile, skills, about, experience} = resume
   return (
-      <Container style={{marginTop: 10}}>
+      <Container style={{marginTop: 15}}>
       <Row>
         <Col xs={12} md={4}>
           <Profile profile={profile}/>
+          <Twitter/>
         </Col>
         <Col xs={12} md={8}>
           <About about={about}/>
