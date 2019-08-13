@@ -29,5 +29,37 @@
         "3D Design"
 
     ],
-    "about": ["Tireless Intellectual Curiosity. My hobby has always been to create things, from small toys with LEGOS to real electronic gadgets for personal use. I'm always programming something, I always have a project in mind. This attitude of creating things has led me to self learn programming of microcontrollers, web and mobile applications. My professional goal is to provide a quality service, a trustworthy person, a strong leader who will do everything possible to keep production and innovation in optimal values. Always ready to solve problems using ingenuity, engineering, code, dedication and a lot of coffee."]
+    "about": ["I have a tireless intellectual curiosity. My hobby has always been to create things, from small toys with LEGOS to real electronic gadgets for personal use. I'm always programming something, I always have a project in mind. This attitude of creating things has led me to self learn programming of microcontrollers, web and mobile applications. My professional goal is to provide a quality service, a trustworthy person, a strong leader who will do everything possible to keep production and innovation in optimal values. Always ready to solve problems using engineering, code, dedication and a lot of coffee."],
+    "experience":[
+        {
+            "company": "Bijao Electric Company S.A.",
+            "logo": "http://beco.hn/es/images/beco.png",
+            "website": "http://beco.hn",
+            "position": "Plant Operations Engineer",
+            "startDate": "16/02/2016",
+            "endDate": "now",
+            "activities": [
+                "Ensure the correct operation of all equipments on plant",
+                "Supervise and asign tasks to field technician operators daily",
+                "Plan an execute daily equipment field inspections",
+                "Report and optimize production, consumption and performace values",
+                "Create the Operations Manual for every equipment in plant"
+            ],
+            "type": "job"
+        },
+        {
+            "company": "Bijao Electric Company S.A.",
+            "logo": "http://beco.hn/es/images/beco.png",
+            "website": "http://beco.hn",
+            "position": "Turbine Operation Engineer",
+            "startDate": "09/02/2016",
+            "endDate": "15/06/2016",
+            "activities": [
+                "Ensure the reliable operation of a 35MW steam turbine and generator unit", 
+                "Attend and control of emergencies like homeloads, blackouts or operation failures", 
+                "Supervise the correct maintenace and operation of equipments during shutdowns"
+            ],
+            "type": "job"
+        } 
+    ]
 }
