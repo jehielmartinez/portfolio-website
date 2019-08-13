@@ -9,16 +9,18 @@ import About from './components/About.js';
 import Experience from './components/Experience.js';
 import Twitter from './components/Twitter.js';
 import Projects from './components/Projects.js';
+import Books from './components/Books.js';
 
 
 function App() {
-  const {profile, skills, about, experience, projects} = resume
+  const {profile, skills, about, experience, projects, books} = resume
   return (
       <Container style={{marginTop: 15}}>
       <Row>
         <Col xs={12} md={4}>
           <Profile profile={profile}/>
           <Twitter/>
+          <Books books={books}/>
         </Col>
         <Col xs={12} md={8}>
           <About about={about}/>
