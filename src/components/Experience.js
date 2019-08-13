@@ -16,7 +16,7 @@ export default function Experience(props) {
                         <Card.Header>
                             <Card.Title style={{margin:0}}>{job.position}</Card.Title>
                             <Card.Subtitle as='a' target='_blank' href={job.website} style={{fontSize: 15, color: 'black', fontWeight: 'bold'}}>{job.company}</Card.Subtitle>
-                            <Card.Text style={{fontSize: 12}}>{job.startDate}</Card.Text>
+                            <Card.Text style={{fontSize: 12}}>{job.startDate} - {job.endDate}</Card.Text>
                         </Card.Header>
                         <Card.Body>
                             <ul>
