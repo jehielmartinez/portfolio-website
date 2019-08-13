@@ -81,5 +81,62 @@
             "description": "Standalone device to play, control tempo and traspose MIDI Hymns. Engineered to be low cost and easy to use for churches in remotes areas. Circuit Board design on EAGLE CAD and fabricated by OHS Park",
             "link": ""
         }
+    ],
+    "books":[
+        {
+            "title": "El Hobbit",
+            "author": "J.R.R. Tolkien",
+            "cover":"https://dpxqea.bl.files.1drv.com/y4m-LxN_tYZ8wpufalAsPPeQxt6gNmBVSK91gXxWut-JSyDAMN7uMmnwX9P-Ths2K4rAClKZDIBc-t2z9K7drfUUnzLleOBGiSPyENTbgSWHhOUG3knuPPbT9poxKeXLXOY-WPEGRqYHbOmaXwqrSxZ6vHfe58SdVEpdNsGfNtoG4IwKxDPYC3zbFTiIe9wMAw-1FNLzuHfirLfIctlwtUIBg?width=648&height=864&cropmode=none"
+        },
+        {
+            "title": "El Boson de Higgs no te va a hacer la cama",
+            "author": "Javier Santaolalla",
+            "cover":"https://dpxrea.bl.files.1drv.com/y4mlE8rdBy3Oad5PSxHj0QdpM_eHKbnihwEj1iDXnYpGnxu3H55yvMNAjDgemwgrjIenxJFR-14cMAzEvt47ZwMT3EhynrptdF-JNSwJ4YPoqUlTiWdR2qnF2uj5k9XrnA8J-6dbGzHD9eIbsubBheEjYzx_r1TbByU4oMFIcJfI8zq1HmkBFhAAkSw8Gwntvl3SwHTuPK-s9YrokzrgqFMXg?width=666&height=1000&cropmode=none"
+        },
+        {
+            "title": "El Caso de Cristo",
+            "author": "Lee Strobel",
+            "cover":"https://qkybyw.bl.files.1drv.com/y4mhtN38hmqyBHMo9KyRoKkc2k9qvtdeYo_fJmh9bndu8_HZhiX2PbcD7LhI7tdwMp9DMwfe3ssois8RNhoLaCql1jWSJhLqBVMg4yYto5BUgRdM1oqsQB9k1U-ijo7tYtTizDl-2O8LkISjzpD-IZxRP6enLfWYpAbS92c0Gu0zdqjL32mnQxmfscKVzummsRo_-rKVzE2NGiOPzmDh8eRbg?width=585&height=824&cropmode=none"
+        },
+        {
+            "title": "Harry Potter",
+            "author": "J. K. Rowling",
+            "cover":"https://2ybdbg.bl.files.1drv.com/y4m36H7tfW357Pn0NlYFIlGU_wzwO83QtHBvC4ZZZMPMS-2x3Q9lFoLMBmvq9QLGCpPkgmqYBnrkclfJ9IxC0imkxF55u8fwIcQ1wQ8N9AdxILPAxGRXOhIKblYbeWHvxUVg3fSwaHtXvgoL9j6lA50IVqVp5ZbaaLV9uAFfwV2dyIU4MR44MDyhQQLnjC6Lc5B6ghL2XP3sPfDLf-GHDHN_Q?width=600&height=900&cropmode=none"
+        },
+        {
+            "title": "Doce Hombres Comunes y Corrientes",
+            "author": "John Mcarthur",
+            "cover":"https://ptf0ka.bl.files.1drv.com/y4m_iAeBBW8wWfzZa7vXtHQUdUA8h-JrmoO_TTvStUgpfL5BFBqSFZsonqIXRK65DOAkX4CnevFcPvpA2qPiuYmspNKQXnU8iza08-3xc5Pv63ALxqC6Yedc0L9Mw7cBOG4M7R_QRzBYy9zr1SBVT-HhZ-EmnXRQvNLkV0hzHJqUkinWJ2AwHC42ALkeYvdmtRCCY9JmdYXkLExgT-3NsidFQ?width=672&height=1024&cropmode=none"
+        },
+        {
+            "title": "El Método Lean Startup",
+            "author": "Eric Ries",
+            "cover":"https://rqphpa.bl.files.1drv.com/y4moEdKW8A07_RRKw2ZQHaM6UV4dWaRftRbjsaFbs4vuGhOK4XXoSnF6bYlEHyyKgmsXF8FmDNuv2w_vSZai1MpKbYXP0DE9Rm15NUk9Sao1e7AvYLZPUTBFjlkrmE2n8JMzL0tibIm8Fw-u_729oRUwi-QFUA96FNNVcXSjE6OMr23jLKuqZr3dKYbqNxRi1_rNmowiq3czptTPShrvaH5DQ?width=600&height=915&cropmode=none"
+        },
+        {
+            "title": "Cartas sobre la mesa",
+            "author": "Agatha Christie",
+            "cover":"https://eqqtsw.bl.files.1drv.com/y4mVBK9pMRf0t2E8fXi-kca5BQOxhTwddY9Taoq3f-xNXWMpmTJC4XGD05POV4p7hC2A1QnwGsJvJ43c-12_W9cW3I-qUz0S_2xYv05AESLwIdmuD-fJ570DEjEAOcDq1m0GCqP03b_Fqv-SOIZVCx3CyoHppHHeNMkWLuPcvIjI5-1LdWMoxgzSGOj7KvUAAOntZ4SkJFpQ_GP4OPdRyeKDw?width=600&height=900&cropmode=none"
+        },
+        {
+            "title": "Choque de Reyes",
+            "author": "George R. R. Martin",
+            "cover":"https://4mejmw.bl.files.1drv.com/y4mMQXRFOAnttQqPwJKTQS6213BTJVj2GXM88Am8F5iJdpugyqo8gWjLxyGak4TaWXvTnK6OiA_mePjh8y7lx9xh5_97WO38sI2eg9jbq2LA4sI94aWBesI7SqCvPD6xJPY83ZHD7Fv6BKfjUyLA8b90In3ljJezw9cYq04h1wZM83GddJfPiySSF_aKrVjEHlj37EYXWE34MT6heAzS5aaAw?width=600&height=900&cropmode=none"
+        },
+        {
+            "title": "Juego de Tronos",
+            "author": "George R. R. Martin",
+            "cover":"https://eqqssw.bl.files.1drv.com/y4mDfT4UqihzepPhwnq5yqPuSk8ZZ6btUPsPiOvtuQR1w-cPpEFIOOhqT1Ypal8T1tFUFNVmIGgVl7vXNldoouxjPGub31JOLMMc_fsnHE36n71enq0CECtZ4nqfttja5TxYYHEp9eQPbuCz62yV9wGCLDNI2PtombyRERBnXM7b6lAlUrPVhRU1wWGaIra66LBIrk8Gg08WMZFdAoTgdmQaQ?width=600&height=900&cropmode=none"
+        },
+        {
+            "title": "Nuva la Hormiga",
+            "author": "Marcos Vidal",
+            "cover":"https://gfhy4a.bl.files.1drv.com/y4mHI4_PyTL2jvuVK_p1ST3tRM_ntP3yly1sIVzq_0RXQ1NZrGLmFQbbUF4KOWeaFMf4FKkXy3S44TFOPVV-jORWy1bFodf7ke3f54Rhe48jQpgIfvf8g1y1Y5O5avgSyTDo78ABGKmeSAPKMn-seUAMZoZVya-nKfzINXuoZa_u_S6Vc2Xf0VTaYpFKwyxucKzf0u2lfYq0cQmHza-kdRJiA?width=328&height=474&cropmode=none"
+        },
+        {
+            "title": "El Asesinato de Rogelio Ackyord",
+            "author": "Agatha Christie",
+            "cover":"https://2ybebg.bl.files.1drv.com/y4msg8kXlEVY8rfceoWwMUg-x8wZQPRp4TheWghWaAEEW6KyWH_QfKtH0Yj2msIRt44Ph5suQb5A9y_UC6LE_6FcDiku199oGbXEVeRa6DHGgo11bwEIPHsoI21qKqKWmNWETnMoeDTHaM7wkYeVUXVxaoZDYM_AMwp2M6hCQ0PRpwrpJErMuYdrKSlxqwIvWRJaGwKu2GGcmJi4nty6qzcbQ?width=600&height=900&cropmode=none"
+        }
     ]
 }
