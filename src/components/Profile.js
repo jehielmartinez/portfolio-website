@@ -1,15 +1,14 @@
 import React from 'react'
 import { Card, Row, Button } from 'react-bootstrap'
-import profilePic from '../assets/profile-pic.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeOpenText} from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Profile(props) {
-    const {name, label, location, github, instagram, twitter, email, linkedin } = props.profile
+    const {name, picture, label, location, github, instagram, twitter, email, linkedin } = props.profile
     return (
         <Card className='text-center shadow-sm' style={{marginBottom: 15}}>
-            <Card.Img src={profilePic}/>
+            <Card.Img src={picture}/>
             <Card.Header>
                 <Card.Title>{name}</Card.Title>
                 <Card.Subtitle>{label}</Card.Subtitle>
