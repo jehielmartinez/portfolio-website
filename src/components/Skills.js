@@ -13,8 +13,8 @@ export default function Skills(props) {
             <Card.Body>
                 <div>
                     {skills.map((skill, key) => (
-                            <Button key={key} style={{margin: 5, backgroundColor: '#F7F7F7', color: 'black', fontWeight: 'bold'}} variant='secondary'>{skill}</Button>
-                        ))}
+                        <Button key={key} style={{margin: 5, backgroundColor: '#F7F7F7', color: 'black', fontWeight: 'bold'}} variant='secondary'>{skill}</Button>
+                    ))}
                 </div>  
             </Card.Body>
         </Card>
