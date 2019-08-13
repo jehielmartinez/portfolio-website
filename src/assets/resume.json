@@ -9,7 +9,25 @@
         "website": "www.jehielmartinez@gmail.com",
         "twitter": "JehielMartinez1",
         "github": "jehielmartinez",
-        "instagram": "jehielmartinez1"
+        "instagram": "jehielmartinez1",
+        "linkedin": "jehielmartinez"
     },
-    "skills":["HTML", "CSS", "Javascript", "NodeJS", "Firebase", "MongoDB", "Express", "React"]
+    "skills":[
+        "React",
+        "Javascript",
+        "React Native",
+        "HTML", 
+        "CSS", 
+        "Bootstrap",
+        "NodeJS",
+        "Express", 
+        "Firebase", 
+        "MongoDB", 
+        "Arduino",
+        "AVR",
+        "Circuit Design",
+        "3D Design"
+
+    ],
+    "about": ["Tireless Intellectual Curiosity. My hobby has always been to create things, from small toys with LEGOS to real electronic gadgets for personal use. I'm always programming something, I always have a project in mind. This attitude of creating things has led me to self learn programming of microcontrollers, web and mobile applications. My professional goal is to provide a quality service, a trustworthy person, a leader who will do everything possible to keep production and innovation in optimal values. Always ready to solve problems using ingenuity, dedication and a lot of coffee."]
 }
