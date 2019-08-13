@@ -6,16 +6,16 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 export default function Skills(props) {
     const skills = props.skills
     return (
-        <Card>
+        <Card style={{marginBottom: 15}}>
             <Card.Header className='text-white' style={{backgroundColor: '#003d5b'}}>
                 <Card.Title><FontAwesomeIcon style={{marginRight: 10}} icon={faCode}/>Skills</Card.Title>
             </Card.Header>
             <Card.Body>
                 <div>
                     {skills.map(skill => (
-                        <Button style={{marginRight: 5}} variant='info'>{skill}</Button>
-                    ))}
-                </div>
+                            <Button key={skill} style={{margin: 5, backgroundColor: '#F7F7F7', color: 'black', fontWeight: 'bold'}} variant='secondary'>{skill}</Button>
+                        ))}
+                </div>  
             </Card.Body>
         </Card>
         
