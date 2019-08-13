@@ -8,10 +8,11 @@ import Skills from './components/Skills';
 import About from './components/About.js';
 import Experience from './components/Experience.js';
 import Twitter from './components/Twitter.js';
+import Projects from './components/Projects.js';
 
 
 function App() {
-  const {profile, skills, about, experience} = resume
+  const {profile, skills, about, experience, projects} = resume
   return (
       <Container style={{marginTop: 15}}>
       <Row>
@@ -22,6 +23,7 @@ function App() {
         <Col xs={12} md={8}>
           <About about={about}/>
           <Experience experience={experience}/>
+          <Projects projects={projects}/>
           <Skills skills={skills}/>
         </Col>
       </Row>
