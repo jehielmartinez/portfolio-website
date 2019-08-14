@@ -10,10 +10,11 @@ import Experience from './components/Experience.js';
 import Twitter from './components/Twitter.js';
 import Projects from './components/Projects.js';
 import Books from './components/Books.js';
+import Education from './components/Education.js';
 
 
 function App() {
-  const {profile, skills, about, experience, projects, books} = resume
+  const {profile, skills, about, experience, projects, books, education} = resume
   return (
       <Container style={{marginTop: 15}}>
       <Row>
@@ -25,6 +26,7 @@ function App() {
         <Col xs={12} md={8}>
           <About about={about}/>
           <Experience experience={experience}/>
+          <Education education={education}/>
           <Projects projects={projects}/>
           <Skills skills={skills}/>
         </Col>

@@ -37,7 +37,7 @@
             "company": "Bijao Electric Company S.A.",
             "logo": "http://beco.hn/es/images/beco.png",
             "website": "http://beco.hn",
-            "position": "Plant Operations Engineer",
+            "position": "Plant Operations Supervisor Engineer",
             "startDate": "16/02/2016",
             "endDate": "now",
             "activities": [
@@ -137,6 +137,15 @@
             "title": "El Asesinato de Rogelio Ackyord",
             "author": "Agatha Christie",
             "cover":"https://2ybebg.bl.files.1drv.com/y4msg8kXlEVY8rfceoWwMUg-x8wZQPRp4TheWghWaAEEW6KyWH_QfKtH0Yj2msIRt44Ph5suQb5A9y_UC6LE_6FcDiku199oGbXEVeRa6DHGgo11bwEIPHsoI21qKqKWmNWETnMoeDTHaM7wkYeVUXVxaoZDYM_AMwp2M6hCQ0PRpwrpJErMuYdrKSlxqwIvWRJaGwKu2GGcmJi4nty6qzcbQ?width=600&height=900&cropmode=none"
+        }
+    ],
+    "education":[
+        {
+            "institution": "Universidad Nacional Autónoma de Honduras",
+            "degree": "Industrial Electrical Engineer",
+            "startDate": "1/02/2010",
+            "endDate": "6/12/2016",
+            "website": "https://vallesula.unah.edu.hn"
         }
     ]
 }
