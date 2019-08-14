@@ -31,7 +31,7 @@
         "Fusion 360"
 
     ],
-    "about": ["I have a tireless intellectual curiosity. My hobby has always been to create things, from small toys with LEGOS to real electronic gadgets for personal use. I'm always programming something, I always have a project in mind. This attitude of creating things has led me to self learn programming of microcontrollers, web and mobile applications. My professional goal is to provide a quality service, a trustworthy person, a strong leader who will do everything possible to keep production and innovation in optimal values. Always ready to solve problems using engineering, code, dedication and a lot of coffee."],
+    "about": ["My hobby has always been to create things, from small toys with Legos to real electronic gadgets for personal use. I'm always doing something; I always have a project in mind and a tireless intellectual curiosity. This penchant for creating and learning things has led me to teach myself to program electronics devices as well as web and mobile applications. My professional goal is to provide quality service, as a trustworthy leader who will do everything possible to keep production and innovation in optimal values. Always ready to solve problems using engineering, code, dedication and a lot of coffee."],
     "experience":[
         {
             "company": "Bijao Electric Company S.A.",
@@ -66,19 +66,19 @@
         {
             "name": "Oversight",
             "image": "https://fdwppg.bl.files.1drv.com/y4mnTiSwf4UtMervrKRO8k3V3sc7v-ELM6qoY2pRxXqKe1sCGsaWdqjq4_NsfQSv_fHWzYa9--ULXQ3-zY1p0MoZ61dItrayCi3nAxOlm66D9IVZ0tRm0CFPub7OGqv3Aj_Ljavx8AbxZcH_FfMePHOfMQm7KW_G0NK9kwwe3D16FSFNXOE5Hp5t9cPelSvLufjdHeC9mH4vRl5Z-leOX72Ew?width=803&height=560&cropmode=none",
-            "description": "Oversight is a platform created to ease the administration of residential areas in Honduras thru a mobile-based app. Featured in Honduras Digital Challenge 2019. MERN Fullstack development.",
+            "description": "Oversight is a platform created to ease the administration of residential areas in Honduras thru a mobile-based app with a Nodejs server hosted in Heroku. Featured in Honduras Digital Challenge 2019. MERN Fullstack development.",
             "link": "http://www.oversight.hn"
         },
         {
             "name": "Wall-E",
             "image": "https://ptf1ka.bl.files.1drv.com/y4m3ZofRLRiGC_rRQN68jwRZ6s6izhX2PLRjf330bdu9N5c4pCVEed9qEK40b_gZWQ2c90X-3jySIUu9mSdUwUosPdYxEGI9kgXleWLdBcHwOuHI3rrZ0OgkI5ZWPpFq_Vj0Y19KpAPTYCJg8LG6guWl61lNkcAeCoXPB56Dr8ixJVgLT9_5935jLLaubTgozarq7XD7tsZyHDT_gWbXQCEtA?width=1024&height=768&cropmode=none",
-            "description": "A bluetooth controled and anti-colition car made for Electronics Design course on UNAH-VS. All control board circuits are manual soldered. Android App created on MIT App Inventor",
+            "description": "A bluetooth controled and anti collision robot made for Electronics Design course at UNAH-VS. Control circuit board is manual soldered. Standalone ATmega328P with a 16MHz external clock. Android App created in MIT App Inventor",
             "link": ""
         },
         {
             "name": "Himnos y Canticos del Evangelio MIDI Player",
             "image": "https://gfhr4a.bl.files.1drv.com/y4mOOM0BQNGe4J6yMIxmaGrWjsHSJcdlTzL0bVnWopAw5jC7Bk9Wi36B8rWRJCGDgJWTRKPexK2V10B46Akl3--hXLftUoOu4ZVLnVx0hdIQY8uMXjZ7uF1aA2f9TpyRYhLIRd-IbKEKbkxEngvK9_T9TWB52TUc711S60LmHhG3YSqjUTYhpCyfFez_3jri2vgmwgfCWbJA2yBsKMbz2cOBA?width=1024&height=576&cropmode=none",
-            "description": "Standalone device to play, control tempo and traspose MIDI Hymns. Engineered to be low cost and easy to use for churches in remotes areas. Circuit Board design on EAGLE CAD and fabricated by OHS Park",
+            "description": "Standalone device to play, control tempo and traspose MIDI Hymns. Battery powered, rechargeable, Arduino compatible. Engineered to be low cost and easy to use for churches in remotes areas. Circuit Board design on EAGLE CAD and fabricated by OHS Park",
             "link": ""
         }
     ],
