@@ -14,7 +14,7 @@ export default function Projects(props) {
                 <Row>
                     {projects.map((project, key) => (
                         <Col key={key} xs={12} md={6}>
-                            <Card>
+                            <Card style={{marginBottom: 5}}>
                                 <CardImg src={project.image}/>
                                 <Card.Header className='text-center'>
                                     <Card.Title as='a' target='_blank' href={project.link} style={{color: 'black', fontWeight: 'bold', fontSize: 20}}>{project.name}</Card.Title>
