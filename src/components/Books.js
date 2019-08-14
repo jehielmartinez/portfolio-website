@@ -4,7 +4,7 @@ import { Card, Carousel} from 'react-bootstrap'
 export default function Books(props) {
     const books = props.books
     return (
-        <Card>
+        <Card style={{marginBottom: 10}}>
             <Card.Header className='text-white' style={{backgroundColor: '#003d5b'}}>
                 <Card.Title>2019 Books</Card.Title>
             </Card.Header>
