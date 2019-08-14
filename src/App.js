@@ -12,9 +12,12 @@ import Projects from './components/Projects.js';
 import Books from './components/Books.js';
 import Education from './components/Education.js';
 
+import ReactGA from 'react-ga';
 
 function App() {
   const {profile, skills, about, experience, projects, books, education} = resume
+  ReactGA.initialize('UA-139384535-2');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
       <Container style={{marginTop: 15}}>
       <Row>
