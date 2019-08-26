@@ -15,7 +15,7 @@ export default function Education(props) {
             </Card.Header>
             <Card.Body style={{textAlign: 'justify'}}>
                 {education.map((item, key) => (
-                    <Card key={key}>
+                    <Card key={key} style={{marginBottom: 10}}>
                         <Card.Header>
                             <Card.Title style={{margin:0}}>{item.degree}</Card.Title>
                             <Card.Subtitle as='a' target='_blank' href={item.website} style={{fontSize: 15, color: 'black', fontWeight: 'bold'}}>{item.institution}</Card.Subtitle>
