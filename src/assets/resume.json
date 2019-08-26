@@ -65,13 +65,19 @@
     "projects": [
         {
             "name": "Oversight",
-            "image": "https://fdwppg.bl.files.1drv.com/y4mnTiSwf4UtMervrKRO8k3V3sc7v-ELM6qoY2pRxXqKe1sCGsaWdqjq4_NsfQSv_fHWzYa9--ULXQ3-zY1p0MoZ61dItrayCi3nAxOlm66D9IVZ0tRm0CFPub7OGqv3Aj_Ljavx8AbxZcH_FfMePHOfMQm7KW_G0NK9kwwe3D16FSFNXOE5Hp5t9cPelSvLufjdHeC9mH4vRl5Z-leOX72Ew?width=803&height=560&cropmode=none",
+            "image": "",
             "description": "Oversight is a platform created to ease the administration of residential areas in Honduras thru a mobile-based app with a Nodejs server hosted in Heroku. Featured in Honduras Digital Challenge 2019. MERN Fullstack development.",
             "link": "http://www.oversight.hn"
         },
         {
+            "name": "Stock Control App",
+            "image": "",
+            "description": "A Stock Control web application to control tool loans and material consumption on BECOSA Local Store. Reactjs, MongoDB and Nodejs technologies stack",
+            "link": ""
+        },
+        {
             "name": "Wall-E",
-            "image": "https://ptf1ka.bl.files.1drv.com/y4m3ZofRLRiGC_rRQN68jwRZ6s6izhX2PLRjf330bdu9N5c4pCVEed9qEK40b_gZWQ2c90X-3jySIUu9mSdUwUosPdYxEGI9kgXleWLdBcHwOuHI3rrZ0OgkI5ZWPpFq_Vj0Y19KpAPTYCJg8LG6guWl61lNkcAeCoXPB56Dr8ixJVgLT9_5935jLLaubTgozarq7XD7tsZyHDT_gWbXQCEtA?width=1024&height=768&cropmode=none",
+            "image": "",
             "description": "A bluetooth controled and anti collision robot made for Electronics Design course at UNAH-VS. Control circuit board is manual soldered. Standalone ATmega328P with a 16MHz external clock. Android App created in MIT App Inventor",
             "link": ""
         },

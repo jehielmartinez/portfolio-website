@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 export default function Skills(props) {
-    const skills = props.skills
+    let skills = props.skills
+    if (!props.skills){
+        skills = []
+    }
     return (
         <Card style={{marginBottom: 15}}>
             <Card.Header className='text-white' style={{backgroundColor: '#003d5b'}}>

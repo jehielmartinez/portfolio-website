@@ -1,10 +1,13 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+    import { Card } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 export default function Experience(props) {
-    const experience = props.experience
+    let experience = props.experience
+    if(!props.experience){
+        experience = []
+    }
     return (
         <Card style={{marginBottom: 15}}>
             <Card.Header className='text-white' style={{backgroundColor: '#003d5b'}}>
