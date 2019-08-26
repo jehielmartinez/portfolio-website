@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const path = 'http://localhost:4000/api'
+export const path = process.env.SERVER_PATH || 'http://localhost:4000/api'
 
 export async function getProfile() {    
     return axios({

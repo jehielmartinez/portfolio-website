@@ -3,12 +3,13 @@ import { Card, Row, Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {path} from '../functions/getData'
 
 export default function Profile(props) {
     const { _id, name, label, location, github, instagram, twitter, email, linkedin } = props.profile
     return (
         <Card className='text-center shadow-sm' style={{ marginBottom: 15 }}>
-            <Card.Img src={`http://localhost:4000/api/profile-image/${_id}`} />
+            <Card.Img src={`${path}/profile-image/${_id}`} />
             <Card.Header>
                 <Card.Title>{name}</Card.Title>
                 <Card.Subtitle>{label}</Card.Subtitle>

@@ -3,6 +3,8 @@ import { Card, CardImg, CardDeck } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
 
+import {path} from '../functions/getData'
+
 export default function Projects(props) {
     let projects = props.projects
     if(!props.projects){
@@ -17,7 +19,7 @@ export default function Projects(props) {
             <CardDeck>
                     {projects.map((project, key) => (
                         <Card key={key} style={{marginBottom: 5}}>
-                            <CardImg src={`http://localhost:4000/api/project-image/${project._id}`}/>
+                            <CardImg src={`${path}/project-image/${project._id}`}/>
                             <Card.Header className='text-center'>
                                 <Card.Title as='a' target='_blank' href={project.link} style={{color: 'black', fontWeight: 'bold', fontSize: 20}}>{project.name}</Card.Title>
                             </Card.Header>
