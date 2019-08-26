@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const path = process.env.SERVER_PATH || 'http://localhost:4000/api'
+export const path = 'https://jehielmartinezserver.herokuapp.com/api'
 
 export async function getProfile() {    
     return axios({
