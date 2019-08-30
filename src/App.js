@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row, Button } from 'react-bootstrap';
 
 import Profile from './components/Profile';
 import Skills from './components/Skills';
@@ -14,6 +14,7 @@ import ReactGA from 'react-ga';
 
 import { getProfile, getEducation, getExperience, getProjects } from './functions/getData'
 import Footer from './components/Footer.js';
+import DowloadButton from './components/DownloadButton';
 
 export default class App extends Component {
   state = {
@@ -77,20 +78,20 @@ export default class App extends Component {
     return (
       <div>
       <Container style={{marginTop: 15}}>
-      <Row>
-        <Col xs={12} md={4}>
-          <Profile profile={profile}/>
-          <Skills skills={profile.skills}/>
-          <Twitter/>
-        </Col>
-        <Col xs={12} md={8}>
-          <About about={profile.about}/>
-          <Projects projects={projects}/>
-          <Experience experience={experience}/>
-          <Education education={education}/>
-        </Col>
-      </Row>
-      
+        <Row>
+          <Col xs={12} md={4}>
+            <Profile profile={profile}/>
+            <Skills skills={profile.skills}/>
+            <Twitter/>
+            <DowloadButton profileID={profile._id}/>
+          </Col>
+          <Col xs={12} md={8}>
+            <About about={profile.about}/>
+            <Projects projects={projects}/>
+            <Experience experience={experience}/>
+            <Education education={education}/>
+          </Col>
+        </Row>
     </Container>
     <Footer/>
     </div>
