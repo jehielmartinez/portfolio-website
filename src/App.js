@@ -82,7 +82,7 @@ export default class App extends Component {
           <Col xs={12} md={4}>
             <Profile profile={profile}/>
             <Skills skills={profile.skills}/>
-            <Twitter/>
+            <Twitter account={profile.twitter}/>
             <DowloadButton profileID={profile._id}/>
           </Col>
           <Col xs={12} md={8}>

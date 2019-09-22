@@ -8,7 +8,7 @@ export default function Twitter(props){
             <Card.Body>
                 <TwitterTimelineEmbed
                     sourceType='profile'
-                    screenName='JehielMartinez1'
+                    screenName='jehielhn'
                     options={{height: 300}}
                     noScrollbar={true}
                     noFooter={true}
