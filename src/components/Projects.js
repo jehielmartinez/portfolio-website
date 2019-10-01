@@ -2,8 +2,8 @@ import React from 'react'
 import { Card, CardImg, Carousel, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
+import image from '../assets/images/oversight.jpg'
 
-import {path} from '../functions/getData'
 
 export default function Projects(props) {
     let projects = props.projects
@@ -23,7 +23,7 @@ export default function Projects(props) {
                             <Row>
                                 <Col xs={12} md={6}>
                                     <Card key={key} style={{margin: 5}}>
-                                        <CardImg src={`${path}/project-image/${project._id}`}/>
+                                        <CardImg src={require(`../assets/images/${project.image}`)}/>
                                         <Card.Header className='text-center'>
                                             <Card.Title as='a' target='_blank' href={project.link} style={{color: 'black', fontWeight: 'bold', fontSize: 20}}>{project.name}</Card.Title>
                                     </Card.Header>
