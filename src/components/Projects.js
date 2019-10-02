@@ -2,8 +2,6 @@ import React from 'react'
 import { Card, CardImg, Carousel, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
-import image from '../assets/images/oversight.jpg'
-
 
 export default function Projects(props) {
     let projects = props.projects
