@@ -12,12 +12,12 @@ export default class ResumePage extends Component {
     }
 
     render() {
-        const {profile} = this.state.resume
+        const {profile, skills} = this.state.resume
         return (
             <main className='main_container'>          
                 <div className='profile_section'>
                     <Profile profile={profile}/>
-                    <Skills/>
+                    <Skills skills={skills}/>
                     <Twitter/>
                 </div>
 

@@ -18,6 +18,18 @@
     margin-bottom: 20px;
     border-radius: 2px;
 }
+.mycard__header {
+    background-color: #003d5b;
+    color: white;
+    height: 60px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.mycard__header h2{
+    font-size: 22px;
+    margin: 0;
+}
 
 /* PROFILE CARD */
 .profile_card img{
@@ -30,7 +42,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 5px;
+    padding: 10px;
 }
 .profile_card p{
     margin: 0;
@@ -80,6 +92,22 @@
 
 .twitter-card{
     padding: 20px;
+}
+
+/* SKILLS CARD */
+.skills-card__skills{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-card__skills--element{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
 }
 
 
