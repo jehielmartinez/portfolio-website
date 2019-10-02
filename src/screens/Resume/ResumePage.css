@@ -13,10 +13,13 @@
     margin: 5px 15px;
 }
 
-/* PROFILE CARD */
-.profile_card {
+.mycard {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 20px;
+    border-radius: 2px;
 }
+
+/* PROFILE CARD */
 .profile_card img{
     width: 100%;
 }
@@ -37,7 +40,7 @@
     font-size: 20px;
     font-weight: bold;
 }
-.profile_card__info--title{
+.profile_card__info--label{
     font-size: 15px;
     font-weight: 500;
 }
@@ -73,6 +76,10 @@
 }
 .profile-card__social--icon-twitter{
     color: #1DA1F2;
+}
+
+.twitter-card{
+    padding: 20px;
 }
 
 

@@ -1,11 +1,10 @@
 import React from 'react'
 import {TwitterTimelineEmbed} from 'react-twitter-embed'
-import { Card } from 'react-bootstrap';
 
 export default function Twitter(props){
     return (
-        <Card style={{marginBottom: 10}}>
-            <Card.Body>
+        <section className='mycard twitter-card'>
+            <div >
                 <TwitterTimelineEmbed
                     sourceType='profile'
                     screenName='jehielhn'
@@ -13,7 +12,7 @@ export default function Twitter(props){
                     noScrollbar={true}
                     noFooter={true}
                 />
-            </Card.Body> 
-        </Card>
+            </div> 
+        </section>
     ) 
 }

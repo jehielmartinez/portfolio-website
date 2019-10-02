@@ -1,15 +1,15 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import Resume from './screens/Resume'
+import {BrowserRouter, Switch, Route } from 'react-router-dom'
+import ResumePage from './screens/Resume/ResumePage'
 
 export default function Router() {
     return (
-        <Router>
+        <BrowserRouter>
             <Switch>
-                <Route path='/resume'>
-                    <Resume/>
+                <Route path='/'>
+                    <ResumePage/>
                 </Route>
             </Switch>
-        </Router>
+        </BrowserRouter>
     )
 }
