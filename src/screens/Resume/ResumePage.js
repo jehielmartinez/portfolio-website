@@ -5,6 +5,7 @@ import resume from '../../assets/resume.json';
 import Profile from '../../components/Profile'
 import Twitter from '../../components/Twitter'
 import Skills from '../../components/Skills'
+import DowloadButton from '../../components/DownloadButton';
 
 export default class ResumePage extends Component {
     state = {
@@ -19,6 +20,7 @@ export default class ResumePage extends Component {
                     <Profile profile={profile}/>
                     <Skills skills={skills}/>
                     <Twitter/>
+                    <DowloadButton/>
                 </div>
 
                 <div class='carreer_section'>
