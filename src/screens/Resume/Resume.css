@@ -12,6 +12,7 @@
     background-color: burlywood;
     margin: 5px 15px;
 }
+
 /* PROFILE CARD */
 .profile_card {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -19,16 +20,18 @@
 .profile_card img{
     width: 100%;
 }
+
 .profile_card__info{
-    height: 100px;
     background-color: #F7F7F7;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 5px;
 }
 .profile_card p{
     margin: 0;
+    text-align: center;
 }
 .profile_card__info--name{
     font-size: 20px;
@@ -41,3 +44,35 @@
 .profile_card__info--location{
     font-size: 14px;
 }
+
+.profile-card__social{
+    padding: 15px;
+}
+.profile-card__social ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profile-card__social li{
+    margin: 5px 8px;
+}
+.profile-card__social a{
+    text-decoration: none;
+    font-size: 30px;
+    transition: font-size 300ms;
+}
+.profile-card__social a:hover{
+    font-size: 40px;
+}
+.profile-card__social--icon-github{
+    color: black;  
+}
+.profile-card__social--icon-twitter{
+    color: #1DA1F2;
+}
+
+
