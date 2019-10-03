@@ -1,5 +1,4 @@
 import React from 'react'
-import { Card, CardImg, Carousel, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,37 +8,18 @@ export default function Projects(props) {
         projects = []
     }
     return (
-        <Card style={{marginBottom: 15}}>
-            <Card.Header className='text-white' style={{backgroundColor: '#003d5b'}}>
-                <Card.Title><FontAwesomeIcon style={{marginRight: 10}} icon={faMicrochip}/>Projects</Card.Title>
-            </Card.Header>
-            <Card.Body>
-            <Carousel interval={4000}>
-                
-                    {projects.map((project, key) => (
-                        <Carousel.Item>
-                            <Row>
-                                <Col xs={12} md={6}>
-                                    <Card key={key} style={{margin: 5}}>
-                                        <CardImg src={require(`../assets/images/${project.image}`)}/>
-                                        <Card.Header className='text-center'>
-                                            <Card.Title as='a' target='_blank' href={project.link} style={{color: 'black', fontWeight: 'bold', fontSize: 20}}>{project.name}</Card.Title>
-                                    </Card.Header>
-                                </Card>
-                                </Col>
-                                <Col xs={12} md={6}>
-                                <Card key={key}>
-                                    <Card.Body>
-                                        <Card.Text className='text-justify'>{project.description}</Card.Text>
-                                    </Card.Body>
-                                </Card>
-                                </Col>
-                            </Row>
-                        </Carousel.Item>
-                    ))}
-                   
-              </Carousel> 
-            </Card.Body>
-        </Card>
+        <section className='mycard projects-card'>
+            <div className='mycard__header'>
+                <h2><FontAwesomeIcon icon={faMicrochip}/> Projects</h2>
+            </div>
+            <div className='projects-card__slideshow'>
+                {projects.map((project, key) => (
+                    <article onClick={() => alert(`Clicked! ${project.name}`)} key={key} className='mycard projects-card__project'>
+                        <img src={require(`../assets/images/${project.image}`)} alt='project'/>
+                        <h3>{project.name}</h3>
+                    </article>
+                ))}
+            </div>
+        </section>
     )
 }

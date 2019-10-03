@@ -92,7 +92,7 @@
     transition: font-size 300ms;
 }
 .profile-card__social a:hover{
-    font-size: 40px;
+    font-size: 45px;
 }
 .profile-card__social--icon-github{
     color: black;  
@@ -148,3 +148,33 @@
     font-weight: bold;
 }
 
+/* PROJECTS-CARD */
+.projects-card__slideshow{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projects-card__project{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.projects-card__project:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.projects-card__project img{
+    width: 100%;
+}
+.projects-card__project h3{
+    font-size: 18px;
+    background-color: #F7F7F7;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+    
