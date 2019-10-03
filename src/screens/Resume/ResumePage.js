@@ -6,6 +6,7 @@ import Profile from '../../components/Profile'
 import Twitter from '../../components/Twitter'
 import Skills from '../../components/Skills'
 import DowloadButton from '../../components/DownloadButton';
+import About from '../../components/About';
 
 export default class ResumePage extends Component {
     state = {
@@ -13,7 +14,7 @@ export default class ResumePage extends Component {
     }
 
     render() {
-        const {profile, skills} = this.state.resume
+        const {profile, skills, about} = this.state.resume
         return (
             <main className='main_container'>          
                 <div className='profile_section'>
@@ -24,7 +25,7 @@ export default class ResumePage extends Component {
                 </div>
 
                 <div class='carreer_section'>
-                    Hola
+                    <About about={about}/>
                 </div>
             </main>
         )

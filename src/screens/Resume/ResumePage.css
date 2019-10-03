@@ -9,7 +9,6 @@
 }
 .carreer_section{
     flex: 2;
-    background-color: burlywood;
     margin: 5px 15px;
 }
 
@@ -127,3 +126,13 @@
 .download-button:hover {
     background-color: rgba(0,61,91,0.9);
 }
+
+.about-card__text {
+    text-align: justify;
+    padding: 20px;
+}
+
+.about-card__text em{
+    font-weight: bold;
+}
+
