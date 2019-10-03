@@ -177,4 +177,54 @@
     text-align: center;
     padding-top: 10px;
 }
+
+/* EXPERIENCE-CARD */
+.experience-card__slideshow{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.experience-card__experience--header{
+    background-color: #F7F7F7;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.experience-card__experience--header img{
+    width: 100px;
+    padding: 10px;
+}
+.experience-card__experience--header h5{
+    margin: 0;
+}
+.experience-card__experience--header p{
+    font-size: 12px;
+    margin: 0;
+}
+.experience-card__experience--header a{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.experience-card__experience--description{
+    padding: 0;
+    margin: 20px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    margin: 0;
+    color: #F7F7F7;
+}
+.footer a{
+    color: #F7F7F7;
+}
+.footer a:hover{
+    color: white;
+}
     
