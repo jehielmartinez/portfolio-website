@@ -150,20 +150,15 @@
         {
             "institution": "Universidad Nacional Autónoma de Honduras",
             "degree": "Industrial Electrical Engineer",
+            "logo": "https://i.pinimg.com/originals/d4/15/32/d415326370a671a45006fa4efe0bbac7.png",
             "startDate": "1/02/2010",
             "endDate": "6/12/2016",
             "website": "https://vallesula.unah.edu.hn"
         },
         {
-            "institution": "Cambridge Certification Authority",
-            "degree": "HTML, CSS and Javascript Level I",
-            "startDate": "04/07/2017",
-            "endDate": "24/09/2017",
-            "website": "https://www.the-cca.org"
-        },
-        {
             "institution": "Udemy",
             "degree": "Nodejs Developer",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/udemy-1-logo-png-transparent.png",
             "startDate": "27/05/2019",
             "endDate": "25/08/2019",
             "website": "https://www.udemy.com/certificate/UC-06GTFNFL/"
@@ -171,9 +166,26 @@
         {
             "institution": "FreeCodeCamp.org",
             "degree": "Responsive Web Design",
+            "logo": "https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg",
             "startDate": "01/09/2019",
             "endDate": "29/09/2019",
             "website": "https://www.freecodecamp.org/certification/jehielmartinez/responsive-web-design"
+        },
+        {
+            "institution": "Platzi",
+            "degree": "Angular 4",
+            "logo": "https://static.platzi.com/media/avatars/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.png",
+            "startDate": "10/04/2018",
+            "endDate": "12/05/2018",
+            "website": "https://platzi.com/@jehielmartinez/curso/1153-angular-4/diploma/detalle/"
+        },
+        {
+            "institution": "Platzi",
+            "degree": "Frontend Developer",
+            "logo": "https://static.platzi.com/media/avatars/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.png",
+            "startDate": "01/09/2019",
+            "endDate": "26/09/2019",
+            "website": "https://platzi.com/@jehielmartinez/curso/1640-frontend-developer/diploma/detalle/"
         }
     ]
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import {Card} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,21 +8,24 @@ export default function Education(props) {
         education = []
     }
     return (
-        <Card style={{marginBottom: 10}}>
-            <Card.Header className='text-white' style={{backgroundColor: '#003d5b'}}>
-                <Card.Title><FontAwesomeIcon style={{marginRight: 10}} icon={faGraduationCap}/>Education</Card.Title>
-            </Card.Header>
-            <Card.Body style={{textAlign: 'justify'}}>
+        <section className='mycard education-card'>
+            <div className='mycard__header'>
+                <h2><FontAwesomeIcon icon={faGraduationCap}/> Certifications</h2>
+            </div>
+            <div className='experience-card__slideshow'>
                 {education.map((item, key) => (
-                    <Card key={key} style={{marginBottom: 10}}>
-                        <Card.Header>
-                            <Card.Title style={{margin:0}}>{item.degree}</Card.Title>
-                            <Card.Subtitle as='a' target='_blank' href={item.website} style={{fontSize: 15, color: 'black', fontWeight: 'bold'}}>{item.institution}</Card.Subtitle>
-                            <Card.Text style={{fontSize: 12}}>{item.startDate} - {item.endDate}</Card.Text>
-                        </Card.Header>
-                    </Card>
+                    <article key={key} className='mycard experience-card__experience'>
+                        <header className='experience-card__experience--header'>
+                        <img alt='company logo' src={item.logo}/>
+                            <div>
+                                <h5>{item.degree}</h5>
+                                <a rel="noopener noreferrer" target='_blank' href={item.website}>{item.institution}</a>
+                                <p>{item.startDate} - {item.endDate}</p>
+                            </div>
+                        </header>
+                    </article>
                 ))}
-            </Card.Body>
-        </Card>
+            </div>
+        </section>
     )
 }

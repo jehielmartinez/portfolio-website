@@ -11,6 +11,7 @@ import Projects from '../../components/Projects';
 import Experience from '../../components/Experience';
 import Footer from '../../components/Footer';
 import ProjectModal from '../../components/ProjectModal';
+import Education from '../../components/Education';
 
 export default class ResumePage extends Component {
     state = {
@@ -39,7 +40,7 @@ export default class ResumePage extends Component {
     }
 
     render() {
-        const {profile, skills, about, projects, experience} = this.state.resume
+        const {profile, skills, about, projects, experience, education} = this.state.resume
         return (
             <div>
                 <main className='main_container'>
@@ -54,6 +55,7 @@ export default class ResumePage extends Component {
                     <div class='carreer_section'>
                         <About about={about}/>
                         <Projects projects={projects} openModal={this.openModal}/>
+                        <Education education={education}/>
                         <Experience experience={experience}/>
                     </div>
                 </main>
