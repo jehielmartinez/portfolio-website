@@ -14,7 +14,7 @@ export default function Projects(props) {
             </div>
             <div className='projects-card__slideshow'>
                 {projects.map((project, key) => (
-                    <article onClick={() => alert(`Clicked! ${project.name}`)} key={key} className='mycard projects-card__project'>
+                    <article onClick={() => props.openModal(project)} key={key} className='mycard projects-card__project'>
                         <img src={require(`../assets/images/${project.image}`)} alt='project'/>
                         <h3>{project.name}</h3>
                     </article>

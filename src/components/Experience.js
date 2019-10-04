@@ -19,7 +19,7 @@ export default function Experience(props) {
                             <img alt='company logo' src={job.logo}/>
                             <div>
                                 <h5>{job.position}</h5>
-                                <a target='_blank' href={job.website}>{job.company}</a>
+                                <a rel="noopener noreferrer" target='_blank' href={job.website}>{job.company}</a>
                                 <p>{job.startDate} - {job.endDate}</p>
                             </div>    
                         </header>
