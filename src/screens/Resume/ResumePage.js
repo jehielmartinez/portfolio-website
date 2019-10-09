@@ -52,7 +52,7 @@ export default class ResumePage extends Component {
                         <DowloadButton/>
                     </div>
 
-                    <div class='carreer_section'>
+                    <div className='carreer_section'>
                         <About about={about}/>
                         <Projects projects={projects} openModal={this.openModal}/>
                         <Education education={education}/>

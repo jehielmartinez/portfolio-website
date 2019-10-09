@@ -23,13 +23,13 @@ export default function Experience(props) {
                                 <p>{job.startDate} - {job.endDate}</p>
                             </div>    
                         </header>
-                        <p className='experience-card__experience--description'>
+                        <div className='experience-card__experience--description'>
                             <ul>
                                 {job.activities.map((activity, key)=>(
                                     <li key={key}>{activity}</li>
                                 ))}
                             </ul>
-                        </p>
+                        </div>
                     </article>
                 ))}
             </div>

@@ -12,9 +12,9 @@ export default function Education(props) {
             <div className='mycard__header'>
                 <h2><FontAwesomeIcon icon={faGraduationCap}/> Certifications</h2>
             </div>
-            <div className='experience-card__slideshow'>
+            <div className='education-card__slideshow'>
                 {education.map((item, key) => (
-                    <article key={key} className='mycard experience-card__experience'>
+                    <article key={key} className='mycard education-card__education'>
                         <header className='experience-card__experience--header'>
                         <img alt='company logo' src={item.logo}/>
                             <div>

@@ -156,6 +156,14 @@
             "website": "https://vallesula.unah.edu.hn"
         },
         {
+            "institution": "Platzi",
+            "degree": "ReactJS",
+            "logo": "https://static.platzi.com/media/avatars/Platzi-f730e65b-e92b-44d3-81c0-5c59c4dc4658.png",
+            "startDate": "01/10/2019",
+            "endDate": "07/10/2019",
+            "website": "https://platzi.com/@jehielmartinez/curso/1651-react-ejs/diploma/detalle/"
+        },
+        {
             "institution": "Udemy",
             "degree": "Nodejs Developer",
             "logo": "https://cdn.freebiesupply.com/logos/large/2x/udemy-1-logo-png-transparent.png",

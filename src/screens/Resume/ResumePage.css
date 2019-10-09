@@ -31,6 +31,9 @@
     .project-modal__content--description{
         margin-top: 10px;
     }
+    .education-card__slideshow{
+        flex-direction: column;
+    }
 }
 .mycard {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -188,6 +191,13 @@
     padding-top: 10px;
 }
 
+.education-card__slideshow{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 /* EXPERIENCE-CARD */
 .experience-card__slideshow{
     margin: 20px;
@@ -197,6 +207,7 @@
 .experience-card__experience--header{
     background-color: #F7F7F7;
     padding: 10px;
+    height: 100%;
     display: flex;
     align-items: center;
 }
