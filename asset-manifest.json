@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c5ede8ab.chunk.css",
+    "main.js": "/portfolio/static/js/main.febfb1ae.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.febfb1ae.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bdda2b97.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bdda2b97.js.map",
+    "static/js/2.ac4c5ecb.chunk.js": "/portfolio/static/js/2.ac4c5ecb.chunk.js",
+    "static/js/2.ac4c5ecb.chunk.js.map": "/portfolio/static/js/2.ac4c5ecb.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.00d47c2cf41e6ccfaf1bdfd797ab0345.js": "/portfolio/precache-manifest.00d47c2cf41e6ccfaf1bdfd797ab0345.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.c5ede8ab.chunk.css.map": "/portfolio/static/css/main.c5ede8ab.chunk.css.map",
+    "static/js/2.ac4c5ecb.chunk.js.LICENSE": "/portfolio/static/js/2.ac4c5ecb.chunk.js.LICENSE",
+    "static/media/Jehiel_Martinez_CV.pdf": "/portfolio/static/media/Jehiel_Martinez_CV.aec03b59.pdf",
+    "static/media/oversight.jpg": "/portfolio/static/media/oversight.10a2f0d4.jpg",
+    "static/media/playground.jpg": "/portfolio/static/media/playground.2584c25f.jpg",
+    "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.bd8e5c27.jpg",
+    "static/media/r-tracker.jpg": "/portfolio/static/media/r-tracker.5bffc909.jpg",
+    "static/media/stock-control.jpg": "/portfolio/static/media/stock-control.4744ee47.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdda2b97.js",
+    "static/js/2.ac4c5ecb.chunk.js",
+    "static/css/main.c5ede8ab.chunk.css",
+    "static/js/main.febfb1ae.chunk.js"
+  ]
+}
