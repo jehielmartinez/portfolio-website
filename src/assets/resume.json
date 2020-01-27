@@ -46,8 +46,8 @@
         },
         {
             "company": "Bijao Electric Company S.A.",
-            "logo": "http://beco.hn/es/images/beco.png",
-            "website": "http://beco.hn",
+            "logo": "https://beco.hn/es/images/beco.png",
+            "website": "https://beco.hn",
             "position": "Plant Operations Supervisor Engineer",
             "startDate": "16/02/2016",
             "endDate": "31/10/2019",
@@ -61,8 +61,8 @@
         },
         {
             "company": "Bijao Electric Company S.A.",
-            "logo": "http://beco.hn/es/images/beco.png",
-            "website": "http://beco.hn",
+            "logo": "https://beco.hn/es/images/beco.png",
+            "website": "https://beco.hn",
             "position": "Turbine Operation Engineer",
             "startDate": "09/02/2016",
             "endDate": "15/06/2016",
@@ -78,7 +78,7 @@
             "name": "Oversight",
             "image": "oversight.jpg",
             "description": "Oversight is a platform created to ease the administration of residential areas in Honduras thru a mobile-based app. I develop the app in React Native, Nodejs, Express and MongoDB. The web app was developed using ReactJS.",
-            "link": "http://www.oversight.hn"
+            "link": "https://www.oversight.hn"
         },
         {
             "name": "Stock Control App",
