@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8a1f5c5cc7fb29940d19acc8e13e9f3",
+    "revision": "ef06c7cc3f12bf6db7b41350930562d3",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "5133ef3494cb8eefa2a6",
+    "revision": "be99f2f2a3a3286feb0a",
     "url": "/portfolio-website/static/css/main.c5ede8ab.chunk.css"
   },
   {
-    "revision": "dc420b66bbbd7dde03ce",
-    "url": "/portfolio-website/static/js/2.ac4c5ecb.chunk.js"
+    "revision": "071be57cc46c88a19646",
+    "url": "/portfolio-website/static/js/2.9463e4f4.chunk.js"
   },
   {
     "revision": "5c40b6d5fb7ba1485ed43e324a0bc563",
-    "url": "/portfolio-website/static/js/2.ac4c5ecb.chunk.js.LICENSE"
+    "url": "/portfolio-website/static/js/2.9463e4f4.chunk.js.LICENSE"
   },
   {
-    "revision": "5133ef3494cb8eefa2a6",
-    "url": "/portfolio-website/static/js/main.6b201503.chunk.js"
+    "revision": "be99f2f2a3a3286feb0a",
+    "url": "/portfolio-website/static/js/main.3d6c306d.chunk.js"
   },
   {
     "revision": "6a928cff6e7ae358a8bf",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aec03b597ba00256965feabaff9ee700",
     "url": "/portfolio-website/static/media/Jehiel_Martinez_CV.aec03b59.pdf"
+  },
+  {
+    "revision": "57c8733756914ba817308668265bc734",
+    "url": "/portfolio-website/static/media/beco.57c87337.png"
+  },
+  {
+    "revision": "9062013b2233e6f7f63a61e21bc1fc90",
+    "url": "/portfolio-website/static/media/cryptos.9062013b.png"
   },
   {
     "revision": "10a2f0d4c6f8ef4a4bb674f50b52dd74",
