@@ -12,8 +12,8 @@ export default function ProjectModal(props) {
                 <div className='project-modal__content--description'>
                     <h1>{project.name}</h1>
                     <p>{project.description}</p>
+                    {project.link ? <a rel="noopener noreferrer" target='_blank' href={project.link}>Try it LIVE!</a> : null}
                 </div>
-                
             </article>  
         </section>
     )

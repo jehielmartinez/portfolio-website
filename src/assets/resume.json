@@ -37,7 +37,7 @@
         {
             "company": "CODE Exitos",
             "logo": "https://secureservercdn.net/104.238.71.140/u08.7e4.myftpupload.com/wp-content/uploads/2019/08/logo.svg",
-            "website": "http://codexitos.com",
+            "website": "https://codexitos.com",
             "position": "Software Engineer",
             "startDate": "1/11/2019",
             "endDate": "now",
@@ -46,7 +46,7 @@
         },
         {
             "company": "Bijao Electric Company S.A.",
-            "logo": "https://beco.hn/es/images/beco.png",
+            "logo": "http://beco.hn/es/images/beco.png",
             "website": "https://beco.hn",
             "position": "Plant Operations Supervisor Engineer",
             "startDate": "16/02/2016",
@@ -61,7 +61,7 @@
         },
         {
             "company": "Bijao Electric Company S.A.",
-            "logo": "https://beco.hn/es/images/beco.png",
+            "logo": "http://beco.hn/es/images/beco.png",
             "website": "https://beco.hn",
             "position": "Turbine Operation Engineer",
             "startDate": "09/02/2016",
@@ -79,6 +79,12 @@
             "image": "oversight.jpg",
             "description": "Oversight is a platform created to ease the administration of residential areas in Honduras thru a mobile-based app. I develop the app in React Native, Nodejs, Express and MongoDB. The web app was developed using ReactJS.",
             "link": "https://www.oversight.hn"
+        },
+        {
+            "name": "Cryptos",
+            "image": "cryptos.png",
+            "description": "Quick check price of your favorite Cryptocurrency! React app exploring Styled Components and Hooks",
+            "link": "http://jehielmartinez.github.io/cryptos"
         },
         {
             "name": "Stock Control App",
