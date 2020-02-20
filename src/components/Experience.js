@@ -23,13 +23,15 @@ export default function Experience(props) {
                                 <p>{job.startDate} - {job.endDate}</p>
                             </div>    
                         </header>
-                        <div className='experience-card__experience--description'>
+                        {job.activities.length !== 0 ? 
+                            <div className='experience-card__experience--description'>
                             <ul>
                                 {job.activities.map((activity, key)=>(
                                     <li key={key}>{activity}</li>
                                 ))}
                             </ul>
-                        </div>
+                            </div>
+                        : null}
                     </article>
                 ))}
             </div>

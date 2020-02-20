@@ -99,7 +99,7 @@
 .profile-card__social a{
     text-decoration: none;
     font-size: 30px;
-    transition: font-size 300ms;
+    transition: font-size .3s ease;
 }
 .profile-card__social a:hover{
     font-size: 45px;

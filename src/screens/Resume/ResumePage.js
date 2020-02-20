@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './ResumePage.css'
-import resume from '../../assets/resume.json';
+import resume from '../../assets/resume';
 
 import Profile from '../../components/Profile'
 import Twitter from '../../components/Twitter'
