@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.cda818c7.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.f1d7f631.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.f1d7f631.chunk.js.map",
-    "runtime-main.js": "/portfolio-website/static/js/runtime-main.65e56ccf.js",
-    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.65e56ccf.js.map",
-    "static/js/2.aa40dd14.chunk.js": "/portfolio-website/static/js/2.aa40dd14.chunk.js",
-    "static/js/2.aa40dd14.chunk.js.map": "/portfolio-website/static/js/2.aa40dd14.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.91343789.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.759f7a41.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.759f7a41.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.93e33f7e.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.93e33f7e.js.map",
+    "static/js/2.a66fc545.chunk.js": "/portfolio-website/static/js/2.a66fc545.chunk.js",
+    "static/js/2.a66fc545.chunk.js.map": "/portfolio-website/static/js/2.a66fc545.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.77c7f8bf0741055e4d189a1e0789a98f.js": "/portfolio-website/precache-manifest.77c7f8bf0741055e4d189a1e0789a98f.js",
+    "precache-manifest.58ed56712d2a61298b4cbf91db88a437.js": "/portfolio-website/precache-manifest.58ed56712d2a61298b4cbf91db88a437.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.cda818c7.chunk.css.map": "/portfolio-website/static/css/main.cda818c7.chunk.css.map",
-    "static/js/2.aa40dd14.chunk.js.LICENSE": "/portfolio-website/static/js/2.aa40dd14.chunk.js.LICENSE",
+    "static/css/main.91343789.chunk.css.map": "/portfolio-website/static/css/main.91343789.chunk.css.map",
+    "static/js/2.a66fc545.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.a66fc545.chunk.js.LICENSE.txt",
     "static/media/Jehiel_Martinez_CV.pdf": "/portfolio-website/static/media/Jehiel_Martinez_CV.aec03b59.pdf",
     "static/media/beco.png": "/portfolio-website/static/media/beco.57c87337.png",
     "static/media/codeExitos.png": "/portfolio-website/static/media/codeExitos.d29981ab.png",
@@ -23,9 +23,9 @@
     "static/media/stock-control.jpg": "/portfolio-website/static/media/stock-control.4744ee47.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.65e56ccf.js",
-    "static/js/2.aa40dd14.chunk.js",
-    "static/css/main.cda818c7.chunk.css",
-    "static/js/main.f1d7f631.chunk.js"
+    "static/js/runtime-main.93e33f7e.js",
+    "static/js/2.a66fc545.chunk.js",
+    "static/css/main.91343789.chunk.css",
+    "static/js/main.759f7a41.chunk.js"
   ]
 }
