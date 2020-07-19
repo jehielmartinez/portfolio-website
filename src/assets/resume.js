@@ -109,7 +109,7 @@ const resume = {
   ],
   education: [
     {
-      institution: 'Universidad Nacional Autónoma de Honduras',
+      institution: 'UNAH-VS',
       degree: 'Industrial Electrical Engineer',
       logo: 'https://i.pinimg.com/originals/d4/15/32/d415326370a671a45006fa4efe0bbac7.png',
       startDate: '1/02/2010',
@@ -133,7 +133,7 @@ const resume = {
       website: 'https://www.udemy.com/certificate/UC-06GTFNFL/'
     },
     {
-      institution: 'FreeCodeCamp.org',
+      institution: 'FreeCodeCamp',
       degree: 'Responsive Web Design',
       logo: 'https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg',
       startDate: '01/09/2019',
