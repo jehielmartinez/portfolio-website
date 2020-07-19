@@ -19,11 +19,9 @@
     "react-twitter-embed": "^2.0.8"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watch-all=false --passWithNoTests",
     "eject": "react-scripts eject",
     "lint": "standard --fix"
   },
@@ -43,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
     "standard": "^14.3.4"
   }
 }
