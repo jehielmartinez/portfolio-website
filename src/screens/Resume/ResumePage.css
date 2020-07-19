@@ -7,7 +7,7 @@
     flex: 1;
     margin: 5px 15px;
 }
-.carreer_section{
+.career_section{
     flex: 2;
     margin: 5px 15px;
 }
@@ -21,7 +21,7 @@
     .profile_section{
         flex: 1;
     }
-    .carreer_section{
+    .career_section{
         flex: 1;
     }
     .project-modal__content{
